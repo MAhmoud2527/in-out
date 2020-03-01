@@ -1,8 +1,3 @@
-/*
-* Template Name:  Logo
-* Template URL: https://bootstrapmade.com/ Logo-bootstrap-app-landing-page-template/
-* License: https://bootstrapmade.com/license/
-*/
 
 (function ($) {
   "use strict";
