@@ -1265,3 +1265,15 @@ figure figcaption {
     font-size: 2rem;
   }
 }
+.la-close{
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+  padding: 0 7px;
+}
+.la-check{
+  font-size: 16px;
+  font-weight: bold;
+  color: green;
+  padding: 0 7px;
+}
