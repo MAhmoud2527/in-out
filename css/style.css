@@ -1289,3 +1289,6 @@ figure figcaption {
   color: green;
   padding: 0 7px;
 }
+.d-inline-block{
+  padding-right: 12px!important;
+}

@@ -3041,3 +3041,6 @@ figure figcaption {
 .text-lg-left{
   text-align: center!important;
 }
+.d-inline-block{
+  padding-right: 145px;
+}
