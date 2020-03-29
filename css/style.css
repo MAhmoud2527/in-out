@@ -65,7 +65,7 @@ figure figcaption {
 }
 
 .section-heading {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   background: linear-gradient(-45deg, #3db3c5, #274685);
   -webkit-background-clip: text;
@@ -164,6 +164,8 @@ figure figcaption {
   box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
   background: #fff;
   padding: 40px;
+  min-height: 230px;
+  max-height: 230px;
 }
 
 .step .number {
