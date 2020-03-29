@@ -24,7 +24,7 @@
   <link href="vendor/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" id="lnagLink">
 
  
 </head>
@@ -54,7 +54,7 @@
           </div>
 
           <div class="col-12 col-md-10 d-none d-lg-block">
-            <nav class="site-navigation position-relative text-right" role="navigation">
+            <nav class="site-navigation position-relative" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="index.html" class="nav-link">Home</a></li>
@@ -66,8 +66,8 @@
                 <li class="has-children">
                   <a class="nav-link"><i class="icofont-world"></i></a>
                   <ul class="dropdown">
-                    <li><a href="" class="nav-link">Arabic</a></li>
-                    <li><a href="" class="nav-link">English</a></li>
+                    <li><a class="nav-link" onclick="changeLang('ar')">Arabic</a></li>
+                      <li><a class="nav-link" onclick="changeLang('en')">English</a></li>
                   </ul>
                 </li>
               </ul>
@@ -254,7 +254,7 @@
       </div>
     </footer>
   </div> <!-- .site-wrap -->
-  
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
   <!-- Vendor JS Files -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/jquery/jquery-migrate.min.js"></script>

@@ -394,6 +394,7 @@ figure figcaption {
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li.active a {
   color: #2d71a1 !important;
+  font-weight: bold;
 }
 
 .sticky-wrapper .shrink {
@@ -754,7 +755,9 @@ figure figcaption {
 .site-navbar .site-logo a:hover {
   text-decoration: none;
 }
-
+.site-navigation{
+  text-align: right;
+}
 .site-navbar .site-navigation .site-menu {
   margin-bottom: 0;
 }
@@ -781,6 +784,7 @@ figure figcaption {
 
 .site-navbar .site-navigation .site-menu > li.active > a {
   color: #fff !important;
+  font-weight: bold;
 }
 
 .site-navbar .site-navigation .site-menu .has-children {
@@ -815,6 +819,9 @@ figure figcaption {
   margin-left: 0px;
   background: #fff;
   transition: 0.2s 0s;
+  min-width: 105;
+  max-width: 105;
+  width: 105px;
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown.arrow-top {
@@ -854,17 +861,22 @@ figure figcaption {
   list-style: none;
   padding: 0;
   margin: 0;
-  min-width: 210px;
+  /* min-width: 210px; */
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a {
-  padding: 9px 20px;
+  /* padding: 9px 20px; */
   display: block;
+  padding: 8px 30px;
+  width: fit-content;
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a:hover {
-  background: #f2f4f6;
-  color: #000000;
+  /* background: #f2f4f6; */
+  color: #10b7d4;
+  transition: all .3s;
+
+
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children > a:before {
