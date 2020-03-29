@@ -1183,6 +1183,9 @@ figure figcaption {
 .footer .credits {
   font-size: 14px;
 }
+.credits a{
+  font-weight: bold;
+}
 
 .social a {
   display: inline-block;
