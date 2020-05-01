@@ -2460,19 +2460,19 @@ figure figcaption {
   top: -50%;
   overflow: hidden;
   left: 0;
-  box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.3); */
   border-radius: 30px;
 }
 
 .hero-section .iphone-wrap .phone-2,
 .hero-section .iphone-wrap .phone-1 {
-  width: 250px;
+  width: 450px;
 }
 
 .hero-section .iphone-wrap .phone-2 {
   margin-top: 50px;
   margin-left: 100px;
-  width: 250px;
+  width: 450px;
 }
 
 /*--------------------------------------------------------------
@@ -3002,7 +3002,7 @@ figure figcaption {
   }
 
   .hero-section .iphone-wrap .phone-2 {
-    width: 250px;
+    width: 450px;
     position: absolute;
     margin-top: 0px;
     margin-left: 100px;
