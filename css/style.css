@@ -1413,6 +1413,10 @@ figure figcaption {
   border-radius:3px;
   /* text-transform:uppercase; */
   margin:5px 0 10px 0;
+  background: #2d71a1;
+  background: linear-gradient(-45deg, #1391a5, #274685);
+  color: #fff;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
 }
 
 .comparison .price-try {
@@ -1475,7 +1479,7 @@ figure figcaption {
 }
 }
 .modal-footer .btn , .price-info .btn{
-  padding: 4px 30px !important;
+  padding: 4px 16px !important;
 }
 .modal-body .form-control {
   height: 35px;
