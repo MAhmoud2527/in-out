@@ -3112,6 +3112,7 @@ figure figcaption {
   font-size:13px;
   border-right:1px solid #CCC;
   border-bottom:0;
+  font-size: 20px;
 }
 
 .comparison .tl2 {
@@ -3125,7 +3126,7 @@ figure figcaption {
 }
 
 .comparison .qbo {
-  background:#18829c;
+  background:linear-gradient(-45deg, #1391a5, #274685);
   /* border-top-right-radius: 3px; */
   border-right:0px;
 }
@@ -3226,4 +3227,17 @@ figure figcaption {
   .compare-heading {
   font-size:13px;
 }
+}
+.modal-footer .btn , .price-info .btn{
+  padding: 4px 30px !important;
+}
+.modal-header .close{
+  padding: unset!important;
+  margin: unset!important;
+}
+.modal-body .form-control {
+  height: 35px;
+}
+.modal-body  textarea.form-control {
+  height: auto!important;
 }

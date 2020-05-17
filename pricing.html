@@ -166,37 +166,37 @@
                     <th class="price-info">
                       <div class="price-was">Was $6.00</div>
                       <div class="price-now"><span>$4<span class="price-small">.20</span></span> /month</div>
-                      <div><a href="#" class="price-buy">Buy <span class="hide-mobile">Now</span></a></div>
+                      <div><a href="#" class=" btn btn-primary" data-toggle="modal" data-target="#FormDetials">Buy <span class="hide-mobile">Now</span></a></div>
                       <div class="price-try"><span class="hide-mobile">or </span><a href="#">try <span class="hide-mobile">it free</span></a></div>
                     </th>
                     <th class="price-info">
                       <div class="price-was">Was $7.00</div>
                       <div class="price-now"><span>$5<span class="price-small">.60</span></span> /month</div>
-                      <div><a href="#" class="price-buy">Buy <span class="hide-mobile">Now</span></a></div>
+                      <div><a href="#" class=" btn btn-primary" data-toggle="modal" data-target="#FormDetials">Buy <span class="hide-mobile">Now</span></a></div>
                       <div class="price-try"><span class="hide-mobile">or </span><a href="#">try <span class="hide-mobile">it free</span></a></div>
                     </th>
                     <th class="price-info">
                       <div class="price-was">Was $15.00</div>
                       <div class="price-now"><span>$10<span class="price-small">.50</span></span> /month</div>
-                      <div><a href="#" class="price-buy">Buy <span class="hide-mobile">Now</span></a></div>
+                      <div><a href="#" class=" btn btn-primary" data-toggle="modal" data-target="#FormDetials">Buy <span class="hide-mobile">Now</span></a></div>
                       <div class="price-try"><span class="hide-mobile">or </span><a href="#">try <span class="hide-mobile">it free</span></a></div>
                     </th>
                     <th class="price-info">
                       <div class="price-was">Was $25.00</div>
                       <div class="price-now"><span>$15<span class="price-small">.00</span></span> /month</div>
-                      <div><a href="#" class="price-buy">Buy <span class="hide-mobile">Now</span></a></div>
+                      <div><a href="#" class=" btn btn-primary" data-toggle="modal" data-target="#FormDetials">Buy <span class="hide-mobile">Now</span></a></div>
                       <div class="price-try"><span class="hide-mobile">or </span><a href="#">try <span class="hide-mobile">it free</span></a></div>
                     </th>
                     <th class="price-info">
                       <div class="price-was">Was $6.00</div>
                       <div class="price-now"><span>$4<span class="price-small">.20</span></span> /month</div>
-                      <div><a href="#" class="price-buy">Buy <span class="hide-mobile">Now</span></a></div>
+                      <div><a href="#" class=" btn btn-primary" data-toggle="modal" data-target="#FormDetials">Buy <span class="hide-mobile">Now</span></a></div>
                       <div class="price-try"><span class="hide-mobile">or </span><a href="#">try <span class="hide-mobile">it free</span></a></div>
                     </th>
                     <th class="price-info">
                       <div class="price-was">Was $6.00</div>
                       <div class="price-now"><span>$4<span class="price-small">.20</span></span> /month</div>
-                      <div><a href="#" class="price-buy">Buy <span class="hide-mobile">Now</span></a></div>
+                      <div><a href="#" class=" btn btn-primary" data-toggle="modal" data-target="#FormDetials">Buy <span class="hide-mobile">Now</span></a></div>
                       <div class="price-try"><span class="hide-mobile">or </span><a href="#">try <span class="hide-mobile">it free</span></a></div>
                     </th>
                   </tr>
@@ -466,6 +466,88 @@
     </footer>
   </div> <!-- .site-wrap -->
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  
+<!-- Modal -->
+<div class="modal fade" id="FormDetials" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form method="post" role="form" class="php-email-form">
+
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <label for="name">Company Name</label>
+              <input type="text" name="name" class="form-control"
+                id="name" data-rule="minlen:4" data-msg="Please enter at
+                least 4 chars" />
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-6 form-group">
+              <label for="name">Email</label>
+              <input type="email" class="form-control" name="email"
+                id="email" data-rule="email" data-msg="Please enter a
+                valid email" />
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-6 form-group">
+              <label for="name">Phone Number</label>
+              <input type="text" name="name" class="form-control"
+                id="name" data-rule="minlen:4" data-msg="Please enter a
+                valid Phone Number" />
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-6 form-group">
+              <label for="name">Number Of Employee</label>
+              <input type="text" class="form-control" name="NumberEmp"
+                id="NumberEmp" data-rule="minlen:4" data-msg="Please enter a
+                valid Number" />
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-12 form-group">
+              <label for="name">Select Plan</label>
+              <select name="subject" class="form-control" id="subject" data-rule="minlen:4" data-msg="Please enter
+              at least 8 chars of subject" >
+            <option value="Plus">Plus</option>
+            <option value="Basic">Basic</option>
+            <option value="Professional">Professional</option>
+            <option value="Ultimate">Ultimate</option>
+            </select>
+             
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-12 form-group">
+              <label for="name">Message</label>
+              <textarea class="form-control" name="message" cols="30"
+                rows="5" data-rule="required" data-msg="Please write
+                something for us"></textarea>
+              <div class="validate"></div>
+            </div>
+
+
+            <div class="col-md-12 mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent.
+                Thank you!</div>
+            </div>
+
+            <div class="col-md-12 form-group">
+              <input type="submit" class="btn btn-primary d-block w-100"
+                value="Send">
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
   <!-- Vendor JS Files -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/jquery/jquery-migrate.min.js"></script>
